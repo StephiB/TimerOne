@@ -96,6 +96,14 @@
   #define TIMER1_B_PIN   10
   #define TIMER1_ICP_PIN 8
   #define TIMER1_CLK_PIN 5
+  
+//  ATtiny167, Digispark Pro
+//
+#elif defined (__AVR_ATtiny167__)
+  #define TIMER1_A_PIN   4  //PB0
+  #define TIMER1_B_PIN   5  //PB1
+  #define TIMER1_ICP_PIN 11 //PA4
+  #define TIMER1_CLK_PIN 13 //PA5  
 
 // Sanguino
 //
